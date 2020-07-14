@@ -41,7 +41,7 @@ public class DistCalc {
 		DecimalFormat fmt = new DecimalFormat("0.###");
 		
 		// Print the calculated distance between the coordinates
-		System.out.println(fmt.format(dist));
+		System.out.println("The distance between the following corrdinates ("+ cordX1 +"," + cordY1 + ") and ("+ cordX2 + "," + cordY2 + ") is " + fmt.format(dist) + ".");
 		
 		
 		
