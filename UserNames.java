@@ -58,10 +58,8 @@ public class UserNames {
 		//Display to user the first 4 characters in their last name followed by the first character in first name followed by a pseudo-random number
 		System.out.println(modLastName + modFirstName + num);
 		
-		
 		// Close Scanner
 		scan.close();
-		
 		
 	}
 
