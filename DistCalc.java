@@ -29,8 +29,8 @@ public class DistCalc {
 		int cordX2 = 9;
 		int cordY2 = 8;
 		
-		// Calculate the horizontal (X) and vertical distance between the coordinates.  
-		// Step is separate to ensure readability of the distance formula
+		// Calculate the horizontal and vertical distance between the coordinates ((X2-X1) & (Y2-Y1)).  
+		// This step is separate to ensure readability of the distance formula
 		int horizontalDis = cordX2 - cordX1;
 		int verticalDis = cordY2 - cordY1;
 		
@@ -42,9 +42,7 @@ public class DistCalc {
 		
 		// Print the calculated distance between the coordinates
 		System.out.println("The distance between the following corrdinates ("+ cordX1 +"," + cordY1 + ") and ("+ cordX2 + "," + cordY2 + ") is " + fmt.format(dist) + ".");
-		
-		
-		
+	
 	}
 
 }
