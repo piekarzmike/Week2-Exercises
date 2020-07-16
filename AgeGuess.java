@@ -19,7 +19,7 @@ public class AgeGuess {
 	//	Modify the AgeGuess program from the last lab to do the following:
 	//		• Declare a new int variable age
 	//		• Initialize age to a random integer between 0 and 100 (inclusive)
-	//		• Asks the user for a guess, save the guess into the ageGuess variable
+	//		• Ask the user for a guess, save the guess into the ageGuess variable
 	//		• Display the user guess and the correct answer
 	//-----------------------------------------------------------------------------------------
 	
